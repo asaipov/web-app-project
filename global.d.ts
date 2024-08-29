@@ -19,3 +19,7 @@ declare module "*.svg" {
 }
 
 declare const __PLATFORM__: "mobile" | "desktop";
+
+declare module "@eslint/js";
+
+declare module "eslint-plugin-react";

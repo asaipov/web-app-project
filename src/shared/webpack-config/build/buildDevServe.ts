@@ -1,5 +1,5 @@
 import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
-import { IBuildOptions } from "../types/interfaces";
+import type { IBuildOptions } from "../types/interfaces";
 
 export const buildDevServe = (
   options: IBuildOptions

@@ -1,7 +1,7 @@
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import { ModuleOptions } from "webpack";
-import { IBuildOptions } from "../types/interfaces";
 import ReactRefreshTypeScript from "react-refresh-typescript";
+import type { ModuleOptions } from "webpack";
+import type { IBuildOptions } from "../types/interfaces";
 
 export const buildLoaders = (
   options: IBuildOptions

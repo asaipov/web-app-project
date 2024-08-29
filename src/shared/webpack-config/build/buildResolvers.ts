@@ -1,4 +1,4 @@
-import { IBuildOptions } from "../types/interfaces";
+import type { IBuildOptions } from "../types/interfaces";
 
 export const buildResolvers = (options: IBuildOptions) => {
   return {

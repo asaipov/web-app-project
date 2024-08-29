@@ -1,9 +1,9 @@
-import webpack from "webpack";
+import type webpack from "webpack";
 import { buildResolvers } from "./buildResolvers";
 import { buildDevServe } from "./buildDevServe";
 import { buildLoaders } from "./buildLoaders";
 import { buildPlugins } from "./buildPlugins";
-import { IBuildOptions } from "../types/interfaces";
+import type { IBuildOptions } from "../types/interfaces";
 
 export const buildWebpack = (options: IBuildOptions): webpack.Configuration => {
   const { mode, port, paths } = options;

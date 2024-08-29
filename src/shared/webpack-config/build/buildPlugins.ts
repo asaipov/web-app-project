@@ -3,8 +3,9 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import ReactRefreshWebpackPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
-import { Configuration, DefinePlugin } from "webpack";
-import { IBuildOptions } from "../types/interfaces";
+import type { Configuration } from "webpack";
+import { DefinePlugin } from "webpack";
+import type { IBuildOptions } from "../types/interfaces";
 import path from "path";
 
 export const buildPlugins = (
