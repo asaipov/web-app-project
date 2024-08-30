@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 import * as styles from "./App.module.scss";
@@ -6,8 +7,11 @@ import * as styles from "./App.module.scss";
 export const App = () => {
   const [count, setCount] = useState<number>(1);
 
+  const { t } = useTranslation();
+
   return (
     <>
+      <h1>{t("privet")}</h1>
       <Link to="/about">About</Link>
       <h1>{__PLATFORM__}</h1>
       <div className={styles.wrapper_style}>{count}</div>
