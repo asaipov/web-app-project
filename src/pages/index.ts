@@ -1,4 +1,4 @@
-import { App } from "./MainPage";
 import { AboutPage } from "./AboutPage";
+import { App } from "./MainPage";
 
-export { App, AboutPage };
+export { AboutPage, App };

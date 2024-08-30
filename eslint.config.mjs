@@ -1,7 +1,8 @@
-import globals from "globals";
 import tseslint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import pluginReact from "eslint-plugin-react";
+import simpleImportSort from "eslint-plugin-simple-import-sort";
+import globals from "globals";
 
 export default [
   {
@@ -13,6 +14,7 @@ export default [
     plugins: {
       "@typescript-eslint": tseslint,
       react: pluginReact,
+      "simple-import-sort": simpleImportSort,
     },
     rules: {
       "no-unused-vars": "warn",
@@ -31,6 +33,8 @@ export default [
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/consistent-type-imports": "warn",
+      "simple-import-sort/imports": "error", // Сортировка импортов
+      "simple-import-sort/exports": "error", // Сортировка экспортов
     },
   },
 ];

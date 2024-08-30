@@ -1,6 +1,7 @@
 import { useState } from "react";
-import * as styles from "./App.module.scss";
 import { Link } from "react-router-dom";
+
+import * as styles from "./App.module.scss";
 
 export const App = () => {
   const [count, setCount] = useState<number>(1);

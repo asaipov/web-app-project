@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
-import { App, AboutPage } from "./pages";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { AboutPage, App } from "./pages";
 
 const root = document.getElementById("root");
 

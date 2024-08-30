@@ -1,7 +1,8 @@
 import path from "path";
-import webpack from "webpack";
+import type webpack from "webpack";
+
 import { buildWebpack } from "./src/shared/webpack-config/build/buildWebpack";
-import {
+import type {
   BuildPlatform,
   IBuildPaths,
 } from "./src/shared/webpack-config/types/interfaces";
