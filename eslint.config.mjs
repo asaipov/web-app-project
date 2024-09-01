@@ -33,8 +33,8 @@ export default [
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/consistent-type-imports": "warn",
-      "simple-import-sort/imports": "error", // Сортировка импортов
-      "simple-import-sort/exports": "error", // Сортировка экспортов
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
     },
   },
 ];
