@@ -1,4 +1,10 @@
 {
   "example_string": "Это тестовая строка",
-  "privet": "привет"
+  "privet": "привет",
+  "default_error_message": "Упс, что-то пошло не так :(",
+  "api_error_message": "Похоже, наш API не работает",
+  "authorized_error_message": "Вы не авторизованы",
+  "not_found_error_message": "Страница не найдена",
+  "error_text": "Ошибка",
+  "back_home_message": "Вернуться назад"
 }

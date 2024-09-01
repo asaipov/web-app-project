@@ -10,5 +10,12 @@ export const buildDevServe = (
     port: options.port ? options.port : 3000,
     historyApiFallback: true,
     hot: true,
+    client: {
+      overlay: {
+        warnings: false,
+        errors: false,
+        runtimeErrors: false,
+      },
+    },
   };
 };
