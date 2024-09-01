@@ -1,4 +1,10 @@
 {
   "example_string": "It's a test string",
-  "privet": "hello"
+  "privet": "hello",
+  "default_error_message": "Oops, something went wrong :(",
+  "api_error_message": "Looks like our API is down",
+  "authorized_error_message": "You aren't authorized to see this",
+  "not_found_error_message": "This page doesn't exist!",
+  "error_text": "Error",
+  "back_home_message": "Back home"
 }

@@ -8,14 +8,14 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    supportedLngs: ["en", "ru"], // Поддерживаемые языки
-    fallbackLng: "ru", // Язык по умолчанию
-    debug: true, // Для отладки
+    supportedLngs: ["en", "ru"],
+    fallbackLng: "ru",
+    debug: true,
     interpolation: {
-      escapeValue: false, // React сам экранирует HTML
+      escapeValue: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json", // Путь к файлам перевода
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
   });
 

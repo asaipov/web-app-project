@@ -3,14 +3,8 @@ import { createRoot } from "react-dom/client";
 import { I18nextProvider } from "react-i18next";
 import { RouterProvider } from "react-router-dom";
 
-import router from "./app/routes/routes";
+import { router } from "./app/providers/routes";
 import i18n from "./shared/i18n-config/i18n/i18nProvider";
-
-const root = document.getElementById("root");
-
-if (!root) {
-  throw new Error("root not found");
-}
 
 const container = createRoot(document.getElementById("root"));
 container.render(
