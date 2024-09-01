@@ -9,6 +9,8 @@ export const App = () => {
 
   const { t } = useTranslation();
 
+  console.log(123);
+
   return (
     <>
       <h1>{t("privet")}</h1>
