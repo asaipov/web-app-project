@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [17.x] # Матрица должна быть в правильном месте
+        node-version: [18.x] # Матрица должна быть в правильном месте
 
     steps: # Исправлено расположение блока 'steps'
       - uses: actions/checkout@v2
