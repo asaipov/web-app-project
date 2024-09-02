@@ -26,6 +26,6 @@
     "src/**/*.tsx",
     "src/**/*.scss",
     "src/**/*.css",
-    "global.d.ts"
+    "src/app/types/global.d.ts"
   ]
 }
