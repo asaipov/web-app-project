@@ -3,7 +3,7 @@ commit_message_file=$1
 commit_message=$(cat "$commit_message_file")
 
 
-pattern="^(feat|bug|refactor|wip): .+ #[0-9]+$"
+pattern="^(feat|bug|refactor|wip|fix): .+ #[0-9]+$"
 
 if ! echo "$commit_message" | grep -Eq "$pattern"; then
   echo "Ошибка: Некорректное сообщение коммита."
