@@ -9,6 +9,7 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "noEmit": true,
     "baseUrl": ".",
     "paths": {
       "@src/*": ["./src/*"]
@@ -17,7 +18,8 @@
   "typeRoots": ["node_modules/@types", "src/types"],
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
+      "skipLibCheck": true
     }
   },
   "include": [
@@ -27,5 +29,6 @@
     "src/**/*.scss",
     "src/**/*.css",
     "src/app/types/global.d.ts"
-  ]
+  ],
+  "exclude": ["node_modules", "dist"]
 }
