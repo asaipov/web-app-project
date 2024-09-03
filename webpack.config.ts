@@ -1,11 +1,11 @@
 import path from "path";
 import type webpack from "webpack";
 
-import { buildWebpack } from "./src/shared/webpack-config/build/buildWebpack";
+import { buildWebpack } from "./src/app/webpack-config/build/buildWebpack";
 import type {
   BuildPlatform,
   IBuildPaths,
-} from "./src/shared/webpack-config/types/interfaces";
+} from "./src/app/webpack-config/types/interfaces";
 
 export type Mode = "production" | "development";
 
