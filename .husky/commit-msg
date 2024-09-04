@@ -1,15 +1,1 @@
-#!/bin/sh
-commit_message_file=$1
-commit_message=$(cat "$commit_message_file")
-
-
-pattern="^(feat|bug|refactor|wip|fix): .+ #[0-9]+$"
-
-if ! echo "$commit_message" | grep -Eq "$pattern"; then
-  echo "Ошибка: Некорректное сообщение коммита."
-  echo "Ожидаемый формат: feat: описание задачи #номерзадачи"
-  exit 1
-fi
-
-exit 0
-
+npx --no-install commitlint --edit "$1"

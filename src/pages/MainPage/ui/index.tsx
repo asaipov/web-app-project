@@ -1,3 +1,4 @@
+import { ROUTES } from "@src/shared/constants";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -12,7 +13,7 @@ export const App = () => {
   return (
     <>
       <h1>{t("privet")}</h1>
-      <Link to="/about">About</Link>
+      <Link to={ROUTES.ABOUT_PAGE}>About</Link>
       <h1>{__PLATFORM__}</h1>
       <div className={styles.wrapper_style}>{count}</div>
       <button onClick={() => setCount((num) => (num += 1))}>

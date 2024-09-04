@@ -1,3 +1,4 @@
+import { ROUTES } from "@src/shared/constants";
 import { Button, Result } from "antd";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -19,7 +20,7 @@ export const ErrorPage = (props: IErrorBoundary) => {
       extra={
         <Button
           onClick={() => {
-            history("/");
+            history(ROUTES.HOME);
           }}
           type="primary"
         >

@@ -1,8 +1,8 @@
 import { AboutPage, App } from "@src/pages";
+import { ROUTES } from "@src/shared/constants";
 import { createBrowserRouter } from "react-router-dom";
 
 import { ErrorBoundary } from "../ErrorBoundary";
-import { ROUTES } from "./constants";
 
 const router = createBrowserRouter([
   {
