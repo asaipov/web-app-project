@@ -1,3 +1,5 @@
+import "./shared/styles/nullstyle.scss";
+
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { I18nextProvider } from "react-i18next";

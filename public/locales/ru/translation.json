@@ -6,5 +6,7 @@
   "authorized_error_message": "Вы не авторизованы",
   "not_found_error_message": "Страница не найдена",
   "error_text": "Ошибка",
-  "back_home_message": "Вернуться назад"
+  "back_home_message": "Вернуться назад",
+  "main_page": "Главная",
+  "about_page": "О нас"
 }

@@ -1,1 +1,1 @@
-export { App as App } from "./ui/index";
+export { MainPage } from "./ui/MainPage";
