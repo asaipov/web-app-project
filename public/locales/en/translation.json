@@ -6,5 +6,7 @@
   "authorized_error_message": "You aren't authorized to see this",
   "not_found_error_message": "This page doesn't exist!",
   "error_text": "Error",
-  "back_home_message": "Back home"
+  "back_home_message": "Back home",
+  "main_page": "Main",
+  "about_page": "About us"
 }
