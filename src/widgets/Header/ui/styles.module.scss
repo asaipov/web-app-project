@@ -2,3 +2,16 @@
   flex: 1;
   min-width: 0;
 }
+
+.menu_style ul li:not(:first-child) {
+  margin: 0 10px !important;
+}
+
+.menu_style ul li {
+  border-radius: 12px;
+}
+
+.header_style {
+  display: flex;
+  align-items: center;
+}

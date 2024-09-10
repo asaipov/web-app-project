@@ -18,7 +18,9 @@ export const buildLoaders = (
     loader: "css-loader",
     options: {
       modules: {
-        localIdentName: isDev ? "[path][name]__local" : "[hash:base64:8]",
+        localIdentName: isDev
+          ? "[path][name]__[hash:base64:8]"
+          : "[hash:base64:8]",
       },
     },
   };
