@@ -12,6 +12,8 @@ export const buildWebpack = (options: IBuildOptions): webpack.Configuration => {
   const isDev = mode === "development";
   const isProd = mode === "production";
 
+  console.log(123);
+
   return {
     mode: mode ?? "development",
     entry: paths.entry,
